@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span>${task.text}</span>
                 <div class="task-buttons">
                     <button class="complete" onclick="toggleComplete(${index})">✔️</button>
-                    <button class="edit" onclick="editTask(${index})">✏️</button>
-                    <button class="delete" onclick="deleteTask(${index})">❌</button>
+                    <button class="edit" onclick="editTask(${index})">✏EDIT</button>
+                    <button class="delete" onclick="deleteTask(${index})">DELETE</button>
                 </div>
             `;
             taskList.appendChild(li);
